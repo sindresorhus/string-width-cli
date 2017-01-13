@@ -13,10 +13,10 @@
     "string-width": "cli.js"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "xo && ava"
   },
   "files": [
     "cli.js"
@@ -39,7 +39,6 @@
     "ansi",
     "escape",
     "codes",
-    "cli",
     "command-line",
     "terminal",
     "console",
@@ -50,10 +49,12 @@
     "fixed-width"
   ],
   "dependencies": {
-    "meow": "^3.3.0",
-    "string-width": "^1.0.0"
+    "meow": "^3.7.0",
+    "string-width": "^2.0.0"
   },
   "devDependencies": {
-    "ava": "0.0.4"
+    "ava": "*",
+    "execa": "^0.6.0",
+    "xo": "*"
   }
 }
