@@ -1,4 +1,4 @@
-# string-width-cli [![Build Status](https://travis-ci.org/sindresorhus/string-width-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/string-width-cli)
+# string-width-cli
 
 > Get the visual width of a string - the number of columns required to display it
 
