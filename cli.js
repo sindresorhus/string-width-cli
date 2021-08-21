@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const stringWidth = require('string-width');
+import meow from 'meow';
+import stringWidth from 'string-width';
 
 const cli = meow(`
 	Usage
@@ -10,6 +9,8 @@ const cli = meow(`
 	Example
 	  $ string-width a古
 	  3
-`);
+`, {
+	importMeta: import.meta,
+});
 
 console.log(stringWidth(cli.input[0]));

@@ -6,13 +6,11 @@ Some Unicode characters are [fullwidth](https://en.wikipedia.org/wiki/Halfwidth_
 
 Useful to be able to measure the actual width of command-line output.
 
-
 ## Install
 
 ```
 $ npm install --global string-width-cli
 ```
-
 
 ## Usage
 
@@ -27,12 +25,6 @@ $ string-width --help
     3
 ```
 
-
 ## Related
 
 - [string-width](https://github.com/sindresorhus/string-width) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
