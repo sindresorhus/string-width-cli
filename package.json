@@ -15,7 +15,7 @@
 		"string-width": "./cli.js"
 	},
 	"engines": {
-		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+		"node": ">=18"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -28,7 +28,6 @@
 		"cli",
 		"string",
 		"character",
-		"char",
 		"unicode",
 		"width",
 		"visual",
@@ -36,7 +35,6 @@
 		"columns",
 		"fullwidth",
 		"full-width",
-		"full",
 		"ansi",
 		"escape",
 		"codes",
@@ -50,12 +48,12 @@
 		"fixed-width"
 	],
 	"dependencies": {
-		"meow": "^10.1.1",
-		"string-width": "^5.0.0"
+		"meow": "^12.1.1",
+		"string-width": "^7.0.0"
 	},
 	"devDependencies": {
-		"ava": "^3.15.0",
-		"execa": "^5.1.1",
-		"xo": "^0.44.0"
+		"ava": "^5.3.1",
+		"execa": "^8.0.1",
+		"xo": "^0.56.0"
 	}
 }

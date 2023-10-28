@@ -8,21 +8,21 @@ Useful to be able to measure the actual width of command-line output.
 
 ## Install
 
-```
-$ npm install --global string-width-cli
+```sh
+npm install --global string-width-cli
 ```
 
 ## Usage
 
 ```
-$ string-width --help
+string-width --help
 
-  Usage
-    $ string-width <text>
+Usage
+  $ string-width <text>
 
-  Example
-    $ string-width a古
-    3
+Example
+  $ string-width a古
+  3
 ```
 
 ## Related
